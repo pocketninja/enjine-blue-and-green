@@ -1,19 +1,19 @@
 const path = require('path');
-const CopyPlugin = require("copy-webpack-plugin");
+// const CopyPlugin = require("copy-webpack-plugin");
 
 module.exports = {
-    entry: './src/js/index.js',
+    entry: './src/js/blue-and-green.js',
     output: {
-        filename: 'js/index.js',
-        path: path.resolve(__dirname, 'public'),
+        filename: 'js/blue-and-green.js',
+        path: path.resolve(__dirname, 'build'),
     },
     plugins: [
-        new CopyPlugin({
-            patterns: [
-                {from: './src/index.html', to: './'},
-                {from: './src/game-assets', to: './game-assets/'},
-            ]
-        })
+        // new CopyPlugin({
+        //     patterns: [
+        //         {from: './src/index.html', to: './'},
+        //         {from: './src/game-assets', to: './game-assets/'},
+        //     ]
+        // })
     ],
     module: {
         rules: [
