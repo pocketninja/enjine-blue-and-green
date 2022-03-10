@@ -1,4 +1,5 @@
 import '../css/blue-and-green.pcss';
+import BlueAndGreenGame from "./Game/BlueAndGreenGame";
 
-
-console.log(`Hello, ${new Date}!`);
+const game = new BlueAndGreenGame();
+game.init();
