@@ -144,7 +144,7 @@ export default class BlueAndGreenGame extends Game {
     #createTile(x, y) {
         const tile = this.world.createNewEntity(
             new TransformComponent,
-            new ImageRendererComponent('/assets/none.png'),
+            new ImageRendererComponent('./assets/none.png'),
             new TileComponent,
         );
 

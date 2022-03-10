@@ -10,9 +10,9 @@ export const TakenScale = 0.25;
 export const DefaultTileColor = 'rgba(0, 0, 0, 0)';
 
 export const PlayerImages = [
-    '/assets/blue.png',
-    '/assets/green.png',
-    '/assets/none.png',
+    './assets/blue.png',
+    './assets/green.png',
+    './assets/none.png',
 ];
 
 export const StarCount = 2000;
