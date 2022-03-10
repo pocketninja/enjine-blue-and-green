@@ -17,3 +17,5 @@ It demonstrates a few things:
 It is also using contemporary features of JavaScript, such as native classes and function visibility. YMMV.
 
 NB: The repo for Enjine itself is not publicly available right now - it's very unfinished and lacks many core features. 
+
+NB: For best results, please use a desktop browser. Input tracking is designed to work with a mouse for the time being.
