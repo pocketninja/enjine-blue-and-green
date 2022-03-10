@@ -14,4 +14,6 @@ It demonstrates a few things:
 * Using various components to present game visual (renderer components for example)
 * Combining reactive HTML (via Alpine.js) with events dispatched from Enjine to create a "HUD" of sorts
 
+It is also using contemporary features of JavaScript, such as native classes and function visibility. YMMV.
+
 NB: The repo for Enjine itself is not publicly available right now - it's very unfinished and lacks many core features. 
