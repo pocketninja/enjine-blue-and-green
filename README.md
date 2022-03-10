@@ -1,6 +1,8 @@
 
 # Blue and Green
 
+https://pocketninja.github.io/enjine-blue-and-green/
+
 This is a rudimentary example of a tic-tac-toe like game. It demonstrates a very simple game made with Enjine, a toy ECS
 JS game engine I'm chipping away at.
 
