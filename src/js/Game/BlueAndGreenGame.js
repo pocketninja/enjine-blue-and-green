@@ -11,8 +11,8 @@ import World from "enjine/src/js/enjine/ecs/World";
 import CanvasRendererSystem from "enjine/src/js/enjine/systems/CanvasRendererSystem";
 import CameraComponent from "enjine/src/js/enjine/components/CameraComponent";
 import SimpleTickSystem from "enjine/src/js/enjine/systems/SimpleTickSystem";
-import TileSystem from "../systems/TileSystem";
-import MovingStarSystem from "../systems/MovingStarSystem";
+import TileSystem from "../Systems/TileSystem";
+import MovingStarSystem from "../Systems/MovingStarSystem";
 import {addListener} from "enjine/src/js/enjine/events";
 import InputManager, {INPUT_CODES} from "enjine/src/js/enjine/managers/InputManager";
 import SquareRendererComponent from "enjine/src/js/enjine/components/renderer-components/SquareRendererComponent";
@@ -44,7 +44,7 @@ export default class BlueAndGreenGame extends Game {
         //update zoom
         window.addEventListener('resize', () => this.#updateZoom());
 
-        //when game inits, kick off the systems
+        //when game inits, kick off the Systems
         addListener(this, 'game.init', event => {
             console.log('game.init', event);
             this.world.systems.forEach(system => {
